@@ -1,0 +1,133 @@
+/*-- scss:defaults --*/
+
+//font theme
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+// Fonts
+$sarabun: "Sarabun";
+
+// Colors
+$cream: #fff9f4;
+$light-yellow: #fffdef;
+$light-red: #ffebeb;
+$light-gray: #eeeeee;
+$light-green: #f8ffec;
+$light-purple: #ede3ef;
+$off-white: #fefefe;
+
+$gray: #656565;
+$dark-gray: #393939;
+$almost-black: #262626;
+$black: #000000;
+$green3: #134130FF; 
+$green2: #4C825DFF; 
+$green1: #9DCCAE; 
+$blue1: #8DC7DCFF; 
+$blue2: #508CA7FF;
+$blue3: #1A5270FF;
+$blue4: #0E2A4DFF;
+$red: #c30000;
+$purple: #9a35a9;
+
+$main-color: $green2;
+
+
+// Base document colors [SASS Variables] (More options found at: https://quarto.org/docs/output-formats/html-themes.html#sass-variables)
+$navbar-bg: $black; // navbar background color
+$navbar-fg: $main-color; // navbar foreground color
+$navbar-hl: $green1;	// navbar highlight color for links
+$body-bg: $dark-gray; // page background 
+$body-color: $off-white; // page text color
+//$sidebar-bg
+//$sidebar-fg
+//$sidebar-hl // sidebar links highlight color
+$footer-bg: $black; // footer background
+$footer-fg: $main-color; //footer foreground
+$link-color: $purple; // hyperlinks 
+
+// personal font styles
+$title-font-size: 50px;
+$normal-font-size: 18px;
+$bigger-font-weight: 500;
+$normal-font-weight: 400;
+
+// font settings [SASS Variables]
+$font-size-root: $normal-font-size;
+//$h1-font-size: 
+//$h2-font-size: 
+//$h3-font-size: 
+//$h4-font-size: 
+//$h5-font-size: 
+
+// table of contents [SASS Variables]
+//$toc-color	//  color for toc text
+//$toc-font-size	//  font-size for toc text
+//$toc-active-border	//  left border color for the currently active toc item
+//$toc-inactive-border	// left border colors for inactive toc items
+
+// callouts [SASS Variables] (https://quarto.org/docs/authoring/callouts.html)
+//$callout-border-width	//  left border callout width (default: 5px)
+//$callout-border-scale	// callout border color computed by shifting the callout color by this amount (default: 0%)
+//$callout-icon-scale	// callout icon color computed by shifting the callout color by this amount (defaults: 10%)
+//$callout-margin-top	// amount of top margin of callout (default: 1.25rem)
+//$callout-margin-bottom	// amount of bottom margin of callout (default: 1.25rem)
+//$callout-color-<type>	// callout colors for the various types
+      // type	default
+      // note	$blue
+      // tip	$green
+      // caution	$orange
+      // warning	$yellow
+      // important	$red
+
+
+/*-- scss:rules --*/
+
+// text
+p {
+  margin-top: 0rem; // (default)
+  margin-bottom: 0rem;
+}
+
+
+// bullet points
+ul, li, main ol ol, main ul ul, main ol ul, main ul ol { // ul: each group of bullet points; il: each individual bullet point
+  margin-top: 0rem; // (default)
+  margin-bottom: 0rem; // eliminated extra spacing at the bottom
+  //padding-left: 2rem; // (default)
+}
+
+
+
+// title banner
+#title-block-header.quarto-title-block.default .description {
+  color: $red; // no effect
+  margin-top: 0rem !important; // no effect
+  background-color: $red;
+}
+#title-block-header.quarto-title-block.default .quarto-title .title { // title banner font
+  color: $main-color; // works
+  font-size: $title-font-size; // works
+}
+.quarto-title-banner {
+  background-color: $almost-black !important; // works
+}
+@media (min-width: 992px) { // margin on top/bottom of title text
+  .quarto-title-banner {
+      padding-top: 4rem !important;
+      padding-bottom: 2em !important;
+  }
+}
+ 
+ 
+// links
+a { // all links element selector
+  text-decoration: none !important;
+}
+a:hover { // all links have an underline when mouse hovers over
+            text-decoration: underline !important;
+        }
+a.nav-link {
+  text-decoration: none !important;
+}
+ 
+ 
