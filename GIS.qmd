@@ -4,43 +4,16 @@ title-block-banner: true
 toc: true
 ---
 
-You can also read the article here: [Relationship between River Water Flow Rate, Periphyton Abundance and Macroinvertebrate Communities](https://owenchoy.github.io/portfolio/algae/algae.pdf).
 
-**Lecture 15: Paleopeoples** (5/20)
 
--   Ocean and humans:
+**Lecture 1: Overview + Ch.1 An Introduction to GIS** (11/15)
 
-    -   Food
+-   [GIS]{.yellow-highlight} - a computer based system to aid in the collection, maintenance, storage, analysis, output, and distribution of spatial data and information (Bolstad 2019)
 
-    -   Transport and trade
+![](images/What is GIS?.png)
 
-    -   Technology development
-
--   CI paleopeoples
-
-    -   CIs offer remarkable evidence of human migration
-
-    -   Coastal communities interact heavily with the ocean
-
-    -   Climate variations significantly impact community and cultural shifts
-
--   CI “paleohistory” timeline
-
-    -   \~1542 AD European arrival
-
-        -   \>300,000 indigenous people
-
-        -   \~78 distinct languages
-
-        -   \~500 tribes with \>200 people
-
-    -   \~20kya (last glacial maximum)
-
-        -   Cooler and wetter climate
-
-        -   Sea level \~100m lower than today
-
-        -   Human migration towards NA
+-   
+-   
 
 <h1>this is h1 heading</h1>
 

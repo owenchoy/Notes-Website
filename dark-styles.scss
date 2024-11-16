@@ -88,6 +88,29 @@ p {
   margin-bottom: 0rem;
 }
 
+// highlight
+.yellow-highlight {
+  background-color: yellow;
+  color: $black;
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+
+.blue-highlight {
+  background-color: lightblue;
+  color: $black;
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+
+.green-highlight {
+  background-color: lightgreen;
+  color: $black;
+  padding: 0.2em;
+  border-radius: 0.2em;
+}
+
+
 
 // bullet points
 ul, li, main ol ol, main ul ul, main ol ul, main ul ol { // ul: each group of bullet points; il: each individual bullet point
@@ -95,6 +118,7 @@ ul, li, main ol ol, main ul ul, main ol ul, main ul ol { // ul: each group of bu
   margin-bottom: 0rem; // eliminated extra spacing at the bottom
   //padding-left: 2rem; // (default)
 }
+
 
 
 
