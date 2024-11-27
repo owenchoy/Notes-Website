@@ -4,16 +4,42 @@ title-block-banner: true
 toc: true
 ---
 
+**Lecture 1: Overview** (11/15)
 
+-   [GIS (geographic information systems)]{.yellow-highlight} - a computer based system to aid in the collection, maintenance, storage, analysis, output, and distribution of spatial data and information (Bolstad 2019)
+    -   Where and what: GIS record the absolute/relative location of features as well as the properties/attributes of those features
+    -   Applications: crime fighting, protecting endangered species, reducing pollution, coping with natural disasters, treat epidemics, improve public health, drawing US congressional districts, emergency services, flood protection, disaster assessment/management, infrastructure development, delivery of goods/services
 
-**Lecture 1: Overview + Ch.1 An Introduction to GIS** (11/15)
+![](images/What%20is%20GIS?.png)
 
--   [GIS]{.yellow-highlight} - a computer based system to aid in the collection, maintenance, storage, analysis, output, and distribution of spatial data and information (Bolstad 2019)
+**Ch. 1 An Introduction to GIS** (11/16)
 
-![](images/What is GIS?.png)
+-   [GIS Components]{.blue-highlight}: GIS is composed of hardware, software, data, humans, and a set of organizational protocols
+    -   [Hardware]{.blue-highlight}: composed of a fast computing, large data storage capacities, and a high-quality large display; although the computing and storage are increasingly distributed across network and onto the data processing cloud
+        -   GIS require coordinate data to define geographic features such as roads, rivers, and parcels
+        -   GPS/GNSS, field tablets, and other specialized equipment aid in data entry
+    -   [Software]{.blue-highlight}: provides the tools to manage, analyze, and effectively display/disseminate spatial information/data
+        -   [Open Geospatial Consortium (OGC)]{.blue-highlight}: have eased sharing across various GIS softwares and computer operating systems with standards for data formats, documentation, program interactions, and transmission developed and published, and lists of standards-compliant software compiled
+        -   [ArcGIS]{.yellow-highlight} - the most broadly deployed GIS, providing a near-comprehensive set of geoprocessing functions, from data entry through analysis to most forms of data output
+        -   [QGIS]{.yellow-highlight} - an open-source software project initiated under the Open Source Geospatial Foundation that is free, stable, provides a graphical user interface, supports a wide variety of types/formats, and runs on Unix, MacOSX, and Microsoft Windows
+        -   [GeoMedia]{.yellow-highlight} - a part of the popular GIS suite from Hexagon Geospatial, it offers a complete set of data entry, analysis, and output tools
+        -   [Idrisi]{.yellow-highlight} - developed by the Graduate School of Geography of Clark University, MA, it provides image processing on top of GIS functions
+        -   [AUTOCAD Map 3D]{.yellow-highlight} - produced by Autodesk, Inc., it adds substantial analytical capability to the already complete set of data input, coordinate manipulation, and data output tools provided by AUTOCAD
+        -   [GRASS (Geographic Resource Analysis Support System)]{.yellow-highlight} - originally developed by the US Army Construction Engineering Research Laboratory but taken up by an open-source project, it is a free, open-source GIS that runs on many platforms and provides a broad array of raster and vector operations
+        -   [Bentley Map]{.yellow-highlight} - developed by Bentley Systems for mobile devices, it has a strong focus on flexible integrated infrastructure design and development
+        -   [Spatial R, Python, and GDAL]{.yellow-highlight} - generic programing, processing, and statistical analysis tools may be combined to provide most GIS functions
+            -   R is an open-source software project with many spatial packages that support a rich set of spatial operations, particularly for spatial estimation
+            -   Python is a general-purpose programming language with several available spatial libraries
+            -   GDAL is a standard set of spatial input/output and data processing functions, which may interface with both R/Python
+    -   [GIS in organizations]{.blue-highlight}: the institutional context in which GIS exists determines what spatial data are important, how these data will be collected and used, and ensures that the results of GIS analyses are properly interpreted and applied
 
+**Ch. 2: Data Models** (11/18)
+-   Each [entity]{.yellow-highlight} (road, mountain, accident location, feature) is represented by a [spatial object]{.yellow-highlight}, defining an entity-object correspondence
+-   [Spatial data model]{.yellow-highlight} - the objects in a spatial database plus the relationships among them
+-   Most GIS store our data as a set of layers, each one organizing the spatial and attribute data for a kind of cartographic object - [thematic layers]{.yellow-highlight}
 -   
--   
+
+
 
 <h1>this is h1 heading</h1>
 
